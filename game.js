@@ -1,6 +1,7 @@
 const hero = document.getElementById("student");
 const deadline = document.getElementById("deadline");
 
+
 document.addEventListener("keydown", function (event) {
     jamp()
 });
