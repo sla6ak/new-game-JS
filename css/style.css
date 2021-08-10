@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(161, 175, 168, 0.568);
+}
+.game{
+    width: 1200px;
+    height: 700px;
+    border-bottom: 3px solid green;
+    margin: auto;
+}
+#student{
+    width: 200px;
+    height: 200px;
+    background-image: url(../impg/hero.png);
+    /* background-color: black; */
+    background-size: 200px 200px;
+    position: relative;
+    top: 497px;
+    left: 150px;
+}
+#deadline{
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-image: url(../impg/imp2.png);
+    /* background-color: black; */
+    position: relative;
+    top: 320px;
+    left: 1000px;
+    animation: deadlineMov 2s infinite linear;
+}
+@keyframes deadlineMov{
+    0%{
+        left: 1000px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+.jamp{
+    animation: jamp 1.1s linear;
+}
+@keyframes jamp{
+    0%{
+        top: 497px;
+    }
+    20%{
+        top: 350px;
+    }
+    40%{
+        top: 250px;
+    }
+    50%{
+        top: 200px;
+    }
+    60%{
+        top: 250px;
+    }
+    80%{
+        top: 350px;
+    }
+    100%{
+        top: 497px;
+    }
+};
+
+.instr{
+    width: 600px;
+    margin: 300px auto;
+}
+.instr h1{
+    width: 400px;
+    margin: 100px auto;
+    color: rgb(36, 80, 80);
+}
